@@ -12,21 +12,16 @@ function Init() {
 			document.body.innerHTML += "Nome: " + this.nome + "<br>";
 			document.body.innerHTML += "Género: " + this.genero + "<br>";
 			document.body.innerHTML += "Preço: " + this.preco + "<br>";
-			document.body.innerHTML += "Avaliação:" + this.avaliacao + "<br>";
-			document.body.innerHTML += this.comentario ? "Comentário: Muito Bom, uma experiência inesquecivel!<br><br>" : "Comentário: Irritante, esgotante e carente de qualquer tipo de diversão.<br><br>";
+			document.body.innerHTML += "Avaliação:" + this.avaliacao + this.comentario + "<br><br>";
 		}
 	}
       
     //Objecto Ovwewatch
-    var overwatch = new jogo("Overwatch", "Fps", "39.99 €", "8/10", true);
+    var overwatch = new jogo("Overwatch", "Fps", "39.99 €", "8/10", " Absolutamente Incrivel");
 	overwatch.dados();
 	
-	//Objecto Minecraft
-	var minecraft = new jogo("Minecraft", "Sandbox", "19.99 €", "10/10", true);
-	minecraft.dados();
-	
-	//Objecto Overwatch
-	var lol = new jogo("League of Legends", "MOBA", "Free", "0/10", false);
+	//Objecto League of legends
+	var lol = new jogo("League of Legends", "MOBA", "Free", "0/10", " Sem qualquer interesse ou diversão.");
 	lol.dados();
 
 }
