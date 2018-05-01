@@ -8,6 +8,7 @@ function Init() {
 		this.avaliacao = avaliacao;
 		this.comentario= comentario;
 		
+		//Lista de informações que aparece na página HTML
 		this.dados = function() {
 			document.body.innerHTML += "Nome: ".bold().big() + this.nome + "<br>";
 			document.body.innerHTML += "Género: ".bold().big() + this.genero + "<br>";
