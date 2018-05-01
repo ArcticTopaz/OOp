@@ -12,7 +12,7 @@ function Init() {
 			document.body.innerHTML += "Nome: " + this.nome + "<br>";
 			document.body.innerHTML += "Género: " + this.genero + "<br>";
 			document.body.innerHTML += "Preço: " + this.preco + "<br>";
-			document.body.innerHTML += "Avaliação:" + this.avaliacao + this.comentario + "<br><br>";
+			document.body.innerHTML += "Avaliação: " + this.avaliacao + this.comentario + "<br><br>";
 		}
 	}
       
