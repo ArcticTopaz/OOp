@@ -17,7 +17,7 @@ function Init() {
 	}
       
     //Objecto Overwatch
-    var overwatch = new jogo("Overwatch", "Fps", "39.99 €", "8/10", " Absolutamente Incrivel");
+    var overwatch = new jogo("Overwatch", "Fps", "39.99 €", "8/10", " Absolutamente Incrivel!");
 	overwatch.dados();
 	
 	//Objecto League of legends
