@@ -9,10 +9,10 @@ function Init() {
 		this.comentario= comentario;
 		
 		this.dados = function() {
-			document.body.innerHTML += "Nome: " + this.nome + "<br>";
-			document.body.innerHTML += "Género: " + this.genero + "<br>";
-			document.body.innerHTML += "Preço: " + this.preco + "<br>";
-			document.body.innerHTML += "Avaliação: " + this.avaliacao + this.comentario + "<br><br>";
+			document.body.innerHTML += "Nome: ".bold().big() + this.nome + "<br>";
+			document.body.innerHTML += "Género: ".bold().big() + this.genero + "<br>";
+			document.body.innerHTML += "Preço: ".bold().big() + this.preco + "<br>";
+			document.body.innerHTML += "Avaliação: ".bold().big() + this.avaliacao + this.comentario + "<br><br>";
 		}
 	}
       
